@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="header">
+    <h1>Botty</h1>
+  </div>
+  <div id="container"></div>
+  <div class="input">
+      <div id="chips-input"></div>
+      <div class="message-input">
+          <input type="text" id="msg-input" placeholder="type your message here...">
+          <span class="spacer"></span>
+          <button type="submit" onclick="sendClientMessage()">
+              <span class="material-symbols-rounded">send</span>
+          </button>
+      </div>
+  </div>
+  <script src="sketch.js"></script>
+</body>
+</html>

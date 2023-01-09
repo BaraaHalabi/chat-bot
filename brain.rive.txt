@@ -1,0 +1,28 @@
+// Chatbot's brain
+
+
+
++ set #
+- <set num=<star>>
+
++ [*]hint[*]
+- try something around <get num> included
+
++ [*]hint[*]
+% try something around * included
+- more hint?? why don't you try <get num>? :)
+
++ #
+* <star> > <get num> => pick a lower number
+* <star> < <get num> => pick a higher number
+* <star> == <get num> => you got it!
+
++ [*] [your] [*] number
+- you have to guess it!
+ 
++ *
+- Sorry, I don't get it, I'm thinking in a number between 1 and 100, try to Guess it!
+- Hmmmmm, why don't we change that subject, and let's guess my number!
+- I'm not in mood, so please guess my number!
+
+
